@@ -40,3 +40,47 @@
 .read-the-docs {
   color: #888;
 }
+
+.Dynamic-header {
+  color: #0e8038;
+}
+
+.Dynamic-title {
+  color: #099e40;
+}
+
+.Dynamic-span {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+}
+
+.Dynamic-span input {
+  flex: 1;
+  padding: 8px;
+  font-size: 1rem;
+  border: solid 2px green;
+  outline: none;
+}
+
+.Dynamic-button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 0;
+  background-color: #0e8038;
+  color: #fff;
+  outline: none;
+}
+
+.Dynamic-form {
+  background-color: #d7f7e3;
+}
+
+.Dynamic-span input::placeholder {
+  color: green;
+}
+
+
+
+
+
